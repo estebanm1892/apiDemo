@@ -1,0 +1,16 @@
+<p>home works!</p>
+
+<div>
+    <h2>Data Api demo</h2>
+    <ul *ngFor="let item of data">
+        <li >
+            {{item.name}}
+        </li>
+        <li>            
+            {{item.status}}
+        </li>
+        <li style="list-style: none;">
+            <img src="{{item.image}}" alt="image" width="100px" height="100px">
+        </li>
+    </ul>
+</div>
